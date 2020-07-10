@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:react_viro:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../node_modules/react-viro/android/react_viro/build/.transforms/1e11689166ef3dba5e0415694ddb00a8/react_viro-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../node_modules/react-viro/android/react_viro/build/.transforms/1e11689166ef3dba5e0415694ddb00a8/react_viro-release/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

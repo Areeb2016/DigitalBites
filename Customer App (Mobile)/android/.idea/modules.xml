@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/@react-native-community/geolocation/android/@react-native-community_geolocation.iml" filepath="$PROJECT_DIR$/../node_modules/@react-native-community/geolocation/android/@react-native-community_geolocation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Viro.iml" filepath="$PROJECT_DIR$/Viro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-viro/android/arcore_client/arcore_client.iml" filepath="$PROJECT_DIR$/../node_modules/react-viro/android/arcore_client/arcore_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-viro/android/gvr_common/gvr_common.iml" filepath="$PROJECT_DIR$/../node_modules/react-viro/android/gvr_common/gvr_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-email-link/android/react-native-email-link.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-email-link/android/react-native-email-link.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/react-native-maps.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/react-native-maps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-viro/android/react_viro/react_viro.iml" filepath="$PROJECT_DIR$/../node_modules/react-viro/android/react_viro/react_viro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-viro/android/viro_renderer/viro_renderer.iml" filepath="$PROJECT_DIR$/../node_modules/react-viro/android/viro_renderer/viro_renderer.iml" />
+    </modules>
+  </component>
+</project>
