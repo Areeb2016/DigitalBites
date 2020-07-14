@@ -33,6 +33,12 @@ const Restaurant = new mongoose.Schema({
 	vrimage: {
 		type: String,
 	},
+	vrimage1: {
+		type: String,
+	},
+	vrimage2: {
+		type: String,
+	},
 	latitude: {
 		type: String,
 	},
