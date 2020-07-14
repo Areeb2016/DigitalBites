@@ -47,8 +47,8 @@ export default class HelloWorldScene extends Component {
     return (
       <ViroScene>
         <Viro360Image source={{uri: this.state.img}} />
-        {/* <ViroText text={this.state.text} width={1} height={1} position={[-1, 0, -4]} style={styles.helloWorldTextStyle} /> */}
-        {/* <ViroBox position={[-1, -1, -4]} scale={[.5,.5,.2]} resource="./res/grid_bg.jpg" onHover={this._onBoxHover} onClick={this._showHelloBeachScene}/> */}
+        <ViroText text={this.state.text} width={1} height={1} position={[-1, 0, -4]} style={styles.helloWorldTextStyle} />
+        <ViroBox position={[-1, -1, -4]} scale={[.5,.5,.2]} resource="./res/grid_bg.jpg" onHover={this._onBoxHover} onClick={this._showHelloBeachScene}/>
       </ViroScene>
     );
     }
@@ -62,14 +62,14 @@ export default class HelloWorldScene extends Component {
   }
 
   _onBoxHover(isHovering) {
-    let text = isHovering ? "To the Kitchen!" : "Click the Box!";
+    let text = isHovering ? "To Next!" : "Click the Box!";
     this.setState({
       text
     });
 }
 
 _showHelloBeachScene() {
-  this.props.sceneNavigator.push({scene:require("./HelloBeachScene.js")});
+  this.props.sceneNavigator.jump({scene:require("./HelloBeachScene.js")});
 }
 
 }
