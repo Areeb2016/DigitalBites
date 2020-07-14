@@ -46,8 +46,8 @@ export default class HelloBeachScene extends Component {
     return (
       <ViroScene onClick={this._showHelloWorldScene}>
         <Viro360Image source={{uri: this.state.img}} />
-        <ViroText text={this.state.text} width={1} height={1} position={[-1, 0, -4]} style={styles.helloWorldTextStyle} />
-        <ViroBox position={[-1, -1, -4]} scale={[.5,.5,.2]} materials={["grid"]} onHover={this._onBoxHover} onClick={this._showThirdVrScene}/>
+        <ViroText text={this.state.text} width={1} height={1} position={[0, 0, -4]} style={styles.helloWorldTextStyle} />
+        <ViroBox position={[0, -1, -4]} scale={[.5,.5,.2]} materials={["grid"]} onHover={this._onBoxHover} onClick={this._showThirdVrScene}/>
       </ViroScene>
     );
     }
