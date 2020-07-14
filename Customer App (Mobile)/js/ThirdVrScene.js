@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 
-import {StyleSheet} from 'react-native';
+import {StyleSheet, AsyncStorage} from 'react-native';
 
 import {
   ViroScene,
@@ -13,17 +13,45 @@ export default class HelloBeachScene extends Component {
   constructor() {
     super();
   
-    this.state = {} // initialize state
+    this.state = {img: "", show: false} // initialize state
   
     this._showHelloWorldScene = this._showHelloWorldScene.bind(this);
   }
+
+  async componentDidMount(){
+    const token =  await AsyncStorage.getItem("token")
+    const res = await AsyncStorage.getItem("restaurant")
+    
+    const response = await fetch('https://digitalbites.herokuapp.com/restaurant/'+res ,{
+        headers:new Headers({
+          Authorization:"Bearer "+token
+        })
+        })
+        .then((response) => response.json())
+    .then((responseJson) => {
+      this.setState({ 
+        img: responseJson.vrimage2,
+        show: true
+      })
+      // alert(this.state.img)
+  })
+  }
   
   render() {
+    if(this.state.show == true){
     return (
       <ViroScene onClick={this._showHelloWorldScene}>
-        <Viro360Image source={require('./res/out.jpg')} />
+        <Viro360Image source={{uri: this.state.img}} />
       </ViroScene>
     );
+    }
+    else if(this.state.show == false) {
+      return(
+        <ViroScene>
+
+        </ViroScene>
+      )
+    }
   }
 
   _showHelloWorldScene() {
