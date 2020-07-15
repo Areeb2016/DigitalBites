@@ -12,7 +12,7 @@ Setting up Viro React is also required for that please consider the following:
 For Mac: "https://docs.viromedia.com/docs/quick-start"
 For Windows: "https://docs.viromedia.com/docs/quick-start-windows"
 
-Open Terminal and go to root of your project and enter following commands:
+Open Terminal and go to root directory of the project and enter following commands:
 1. npm i
 2. react-native run android
 
@@ -57,7 +57,7 @@ Install with 'npm install -g expo-cli'
 for futher help consider "https://reactnative.dev/docs/environment-setup"
 You will also need to install Expo app.
 
-Open Terminal and go to root of your project and enter following commands:
+Open Terminal and go to root directory of the project and enter following commands:
 1. npm i
 2. npm start
 
@@ -103,5 +103,67 @@ react-navigation: ^4.0.10,
 react-navigation-drawer: ^2.3.3,
 react-time-picker: ^3.9.0
 
-## Admin :
 
+## Admin:
+
+Open Terminal and go to root of the project and enter following commands:
+1. npm i
+2. npm start
+port: 3000
+
+###### Packages/Dependencies:
+body-parser: ^1.18.3,
+concurrently: ^4.0.1,
+cors: ^2.8.5,
+express: ^4.16.3,
+path: "^0.12.7,
+react-moment: ^0.9.7,
+validator: ^10.8.0
+
+
+## Super Admin:
+
+Open Terminal and go to root of the project and enter following commands:
+1. npm i
+2. npm start
+port: 3000
+
+###### Packages/Dependencies:
+axios: ^0.19.0,
+bootstrap: ^4.3.1,
+font-awesome: ^4.7.0,
+jquery: ^3.4.1,
+moment: ^2.24.0,
+popper.js: ^1.15.0,
+react: ^16.9.0,
+react-dom: ^16.9.0,
+react-helmet: ^5.2.1,
+react-moment: ^0.9.2,
+react-router-dom: ^5.0.1,
+react-scripts: 3.1.1
+
+
+## Server:
+
+Open Terminal and go to root of the project and enter following commands:
+1. npm i
+2. npm start
+port: 4000
+
+###### Packages/Dependencies:
+bcryptjs: ^2.4.3,
+body-parser: ^1.19.0,
+cloudinary: ^1.20.0,
+cors: ^2.8.5,
+express: ^4.17.1,
+jsonwebtoken: ^8.5.1,
+lodash: ^4.17.15,
+moment: ^2.24.0,
+mongoose: ^5.7.13,
+multer: ^1.4.2,
+multer-storage-cloudinary: ^2.2.1,
+nexmo: ^2.6.0,
+socket.io: ^2.3.0
+
+
+###### Note: Server is deployed on huroko. 
