@@ -166,4 +166,4 @@ nexmo: ^2.6.0,
 socket.io: ^2.3.0
 
 
-###### Note: Server is deployed on huroko. 
+###### Note: Server is deployed on huroko. In order to test the Server you must change the api from "https://digitalbites.herokuapp.com" to "http://localhost:4000"
