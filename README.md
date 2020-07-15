@@ -16,7 +16,7 @@ Open Terminal and go to root directory of the project and enter following comman
 1. npm i
 2. react-native run android
 
-###### Package/Dependencies:
+##### Package/Dependencies:
 @mapbox/polyline: ^1.1.1,
 @react-native-community/geolocation: ^2.0.2,
 geolib: ^3.3.1,
@@ -61,7 +61,7 @@ Open Terminal and go to root directory of the project and enter following comman
 1. npm i
 2. npm start
 
-###### Packages/Dependencies:
+##### Packages/Dependencies:
 @mapbox/polyline: ^1.1.0,
 @react-native-community/async-storage: ^1.6.3,
 @react-native-community/geolocation: ^2.0.2,
@@ -111,7 +111,7 @@ Open Terminal and go to root of the project and enter following commands:
 2. npm start
 port: 3000
 
-###### Packages/Dependencies:
+##### Packages/Dependencies:
 body-parser: ^1.18.3,
 concurrently: ^4.0.1,
 cors: ^2.8.5,
@@ -128,7 +128,7 @@ Open Terminal and go to root of the project and enter following commands:
 2. npm start
 port: 3000
 
-###### Packages/Dependencies:
+##### Packages/Dependencies:
 axios: ^0.19.0,
 bootstrap: ^4.3.1,
 font-awesome: ^4.7.0,
@@ -150,7 +150,7 @@ Open Terminal and go to root of the project and enter following commands:
 2. npm start
 port: 4000
 
-###### Packages/Dependencies:
+##### Packages/Dependencies:
 bcryptjs: ^2.4.3,
 body-parser: ^1.19.0,
 cloudinary: ^1.20.0,
@@ -167,3 +167,5 @@ socket.io: ^2.3.0
 
 
 ##### Note: Server is deployed on heroku. To test the Server you must change the api from "https://digitalbites.herokuapp.com" to "http://localhost:4000".
+
+##### Visit Our Website "https://digital-bites.herokuapp.com/"
