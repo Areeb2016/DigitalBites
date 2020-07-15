@@ -8,6 +8,10 @@ Pre-Requisite: React Native Cli and Android Studio
 Install with 'npm install –g react-native-cli'
 for futher help consider "https://reactnative.dev/docs/environment-setup"
 
+Setting up Viro React is also required for that please consider the following:
+For Mac: "https://docs.viromedia.com/docs/quick-start"
+For Windows: "https://docs.viromedia.com/docs/quick-start-windows"
+
 Open Terminal and go to root of your project and enter following commands:
 1. npm i
 2. react-native run android
