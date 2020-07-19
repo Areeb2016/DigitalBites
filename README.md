@@ -9,7 +9,7 @@ Install with 'npm install –g react-native-cli'\
 for futher help consider "https://reactnative.dev/docs/environment-setup"
 
 Setting up Viro React is also required for that please consider the following:\
-For Mac: "https://docs.viromedia.com/docs/quick-start"\
+For Mac: "https://docs.viromedia.com/docs/quick-start" \
 For Windows: "https://docs.viromedia.com/docs/quick-start-windows"
 
 Open Terminal and go to root directory of the project and enter following commands:
@@ -54,7 +54,7 @@ socket.io-client: ^2.1.1
 
 Pre-Requisite: Expo\
 Install with 'npm install -g expo-cli'\
-for futher help consider "https://reactnative.dev/docs/environment-setup"\
+for futher help consider "https://reactnative.dev/docs/environment-setup" \
 You will also need to install Expo app.
 
 Open Terminal and go to root directory of the project and enter following commands:
@@ -81,7 +81,7 @@ pubnub-react: ^2.0.0,\
 react: ~16.9.0,\
 react-dom: ~16.9.0,\
 react-maps: ^0.4.0,\
-react-native: https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz,\
+react-native: https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz, \
 react-native-elements: ^1.2.7,\
 react-native-email-link: ^1.9.2,\
 react-native-geocoding: ^0.4.0,\
@@ -170,8 +170,7 @@ socket.io: ^2.3.0
 
 ##### Visit Our Website "https://digital-bites.herokuapp.com/"
 
-####### Work Distribution:
-
+###### Work Distribution:\
 Areeb Siddiqui : Customer and Rider App Front End + AR + Tracking\
 Nida Shahid: Admin and Super-Admin Front End\
 Taha Jamil: Web and Mobile Backend + VR
