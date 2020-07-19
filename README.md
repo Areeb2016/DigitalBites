@@ -145,32 +145,32 @@ react-scripts: 3.1.1
 
 ## Server:
 
-Open Terminal and go to root of the project and enter following commands:
-1. npm i
-2. npm start
-port: 4000
+Open Terminal and go to root of the project and enter following commands:\
+1. npm i\
+2. npm start\
+port: 4000\
 
-##### Packages/Dependencies:
-bcryptjs: ^2.4.3,
-body-parser: ^1.19.0,
-cloudinary: ^1.20.0,
-cors: ^2.8.5,
-express: ^4.17.1,
-jsonwebtoken: ^8.5.1,
-lodash: ^4.17.15,
-moment: ^2.24.0,
-mongoose: ^5.7.13,
-multer: ^1.4.2,
-multer-storage-cloudinary: ^2.2.1,
-nexmo: ^2.6.0,
-socket.io: ^2.3.0
+##### Packages/Dependencies:\
+bcryptjs: ^2.4.3,\
+body-parser: ^1.19.0,\
+cloudinary: ^1.20.0,\
+cors: ^2.8.5,\
+express: ^4.17.1,\
+jsonwebtoken: ^8.5.1,\
+lodash: ^4.17.15,\
+moment: ^2.24.0,\
+mongoose: ^5.7.13,\
+multer: ^1.4.2,\
+multer-storage-cloudinary: ^2.2.1,\
+nexmo: ^2.6.0,\
+socket.io: ^2.3.0\
 
 
 ##### Note: Server is deployed on heroku. To test the Server you must change the api from "https://digitalbites.herokuapp.com" to "http://localhost:4000".
 
 ##### Visit Our Website "https://digital-bites.herokuapp.com/"
 
-####### Work Distribution:
+####### Work Distribution:\
 Areeb Siddiqui : Customer and Rider App Front End + AR + Tracking\
 Nida Shahid: Admin and Super-Admin Front End\
-Taha Jamil: Web and Mobile Backend + VR\
+Taha Jamil: Web and Mobile Backend + VR
