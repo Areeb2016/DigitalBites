@@ -1,4 +1,4 @@
-#### Note: This is repository/project is for FYP Evaluation. Please don't use this code for any means other than evaluation.
+#### Note: This is repository/project is for Evaluation. Please don't use this code for any means other than evaluation.
 
 # DigitalBites
 
