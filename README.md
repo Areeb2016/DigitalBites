@@ -169,8 +169,3 @@ socket.io: ^2.3.0
 ##### Note: Server is deployed on heroku. To test the Server you must change the api from "https://digitalbites.herokuapp.com" to "http://localhost:4000".
 
 ##### Visit Our Website "https://digital-bites.herokuapp.com/"
-
-###### Work Distribution:
-Areeb Siddiqui : Customer and Rider App Front End + AR + Tracking\
-Nida Shahid: Admin and Super-Admin Front End\
-Taha Jamil: Web and Mobile Backend + VR
