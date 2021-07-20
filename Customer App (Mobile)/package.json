@@ -18,7 +18,7 @@
     "pubnub": "^4.27.5",
     "pubnub-react": "^2.0.0",
     "react": "16.8.3",
-    "react-native": "0.59.9",
+    "react-native": "0.62.3",
     "react-native-alert-pro": "^1.1.2",
     "react-native-datepicker": "^1.7.2",
     "react-native-elements": "^1.2.7",
